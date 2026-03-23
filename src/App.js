@@ -34,6 +34,13 @@ function App() {
         <Route path='/signin' element={ <SignIn/>}/>
         <Route path='/signup' element={ <SignUp/>}/>
       </Routes>
+
+       
+
+
+       <footer style={{ marginTop: "20px", textAlign: "center" }}>
+        <p>© 2026 My Website</p>
+      </footer>
     </div>
     </Router>
   );
