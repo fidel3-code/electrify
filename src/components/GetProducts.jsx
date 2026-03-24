@@ -122,8 +122,9 @@ useEffect(()=>{
 
 
     </section> 
-      <h1 className='text-warning display-2'>Electronics</h1>
-      <input type="search" placeholder='Search for products...' className='form-control sticky-top'/>
+    <input type="search" placeholder='Search for products...' className='form-control sticky-top'/>
+      <h1 className='text-secondary display-2'>Suggested for you</h1>
+      
       <p className='text-warning'>{loading}</p>
       <p className='text-danger'>{error}</p>
 
